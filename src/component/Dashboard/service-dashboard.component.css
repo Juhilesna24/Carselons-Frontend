@@ -1,0 +1,179 @@
+/* ServiceDashboard.css */
+
+.service-dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+
+.card-title-booking {
+  color: beige;
+  margin-bottom: 10px;
+
+}
+
+.service-center-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.service-center-details h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.upcoming-bookings {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.upcoming-bookings h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.upcoming-bookings ul {
+  list-style: none;
+  padding: 0;
+}
+
+.upcoming-bookings li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-center-details button,
+.upcoming-bookings button {
+  background-color: #281d41;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: block;
+  /* width: 100%; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.update-status {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.update-status h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.booking {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.status-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.calendar-view {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.calendar-view h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Add any additional styling as needed */
+/* service-dashboard.component.css */
+
+/* Style for the calendar view */
+.calendar-view {
+  margin-top: 20px;
+}
+
+/* Style for the Calendar component */
+.react-calendar {
+  max-width: 90%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.react-calendar__navigation button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.react-calendar__month-view__weekdays {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  text-align: center;
+}
+
+/* .react-calendar__month-view__days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+} */
+
+.react-calendar__tile {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+}
+
+.react-calendar__tile--active {
+  background-color: #f0f0f0;
+}
+
+/* Additional styles for the calendar view section */
+.calendar-view h2 {
+  margin-bottom: 10px;
+}
+
+.calendar-view p {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Add more styles as needed */
+
