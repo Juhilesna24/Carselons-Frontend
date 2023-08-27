@@ -2,8 +2,9 @@ import React from 'react';
 import Login from './component/Login/login.component';
 import Signup from './component/signup/signup.component';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import UserDashboard from './component/Dashboard/UserDashboard.component';
+import UserDashboard from './component/Dashboard/user-dashboard.component';
 import ServiceDashboard from './component/Dashboard/service-dashboard.component';
+import AdminDashboard from './component/Dashboard/admin-dashboard.component';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Import CSS
 
@@ -18,7 +19,7 @@ function App() {
           <Route exact path="/signup" element={<Signup />} />
           <Route path="/user-dashboard" element={<UserDashboard />} />
           <Route path="/service-dashboard" element={<ServiceDashboard />} />
-          {/* Other routes */}
+          <Route path="/admin-dashboard" element={<AdminDashboard />} />
         </Routes>
       </Router>
       </header>

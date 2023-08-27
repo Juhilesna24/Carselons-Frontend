@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './UserDashboard.component.css';
+import './user-dashboard.component.css';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';

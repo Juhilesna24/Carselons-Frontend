@@ -1,0 +1,63 @@
+
+.display-flex {
+  display: flex;
+  width: 100%;
+}
+
+.admin-dashboard {
+  text-align: center;
+  padding: 20px;
+}
+.card-title-booking {
+  color: beige;
+  margin-bottom: 10px; 
+}
+
+.chart-container {
+  border-radius: 25px;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    background-color: #241532;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Customize the appearance of the chart tooltip */
+.chartjs-tooltip {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 3px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+/* Customize the chart legend */
+.chart-legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.chart-legend li {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.chart-legend span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+
+/* Responsive adjustments
+@media (max-width: 768px) {
+  .chart-container {
+    max-width: 90%;
+  }
+} */

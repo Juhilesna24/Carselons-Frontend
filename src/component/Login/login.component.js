@@ -27,9 +27,11 @@ const LoginPage = () => {
 
         // Redirect based on role
         if (response.data.user.role === 'user') {
-          navigate('/user-dashboard'); // Correct route name
+          navigate('/user-dashboard');
         } else if (response.data.user.role === 'service_center') {
-          navigate('/service-dashboard'); // Correct route name
+          navigate('/service-dashboard'); 
+        } else if (response.data.user.role === 'admin'){
+          navigate('/admin-dashboard'); 
         }
       
         // Redirect to dashboard or other pages
